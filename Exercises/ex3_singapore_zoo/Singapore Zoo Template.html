@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                text-align: center;
+                font-size: 30px;
+            }
+
+            br {
+                clear: both;
+            }
+
+            .wrapper { 
+                width: 1000px;
+            }
+
+            .image-overlap, .image-beside {
+                background-color:cornflowerblue;
+                width: 850px;
+                height: 300px;
+            }
+
+            .image-beside {
+                float: left;
+            }
+
+            .image-overlap-info, .image-beside-info {
+                background-color:lightgrey;
+            }
+
+            .image-overlap-info {
+                width: 300px;
+                position: relative;
+                bottom: 130px;
+                left: 700px;
+                height: 100px;
+            }
+
+            .image-beside-info {
+                width: 150px;
+                height: 300px;
+                float: right;
+            }
+
+            .image2, .image3 {
+                width: 250px;
+            }
+
+            .image1 {
+                background-color:cornflowerblue;
+                width: 500px;
+                height:350px;
+                float: left;
+            }
+
+            .image2 {
+                background-color:pink;
+                float: left;
+                height:150px;
+            }
+
+            .image3 {
+                background-color:palegreen;
+                float:left;
+                height:150px;
+            }
+
+            .image4 {
+                background-color: pink;
+                float: right;
+                width: 500px;
+                height: 500px;
+            }
+
+        </style>       
+    </head>
+
+    <body>
+        <!-- PART 1 -->
+        <div class="wrapper">
+            <div class="image-overlap">Image</div>
+            <div class="image-overlap-info">Information Box</div>
+        </div>
+
+        <br> 
+
+        <!-- PART 2 -->
+        <div class="wrapper">
+            <div class="image-beside">Image</div>
+            <div class="image-beside-info">Information Box</div>
+        </div>
+
+        <br> 
+        
+        <!-- PART 3 -->
+        <div class="wrapper">
+            <div class="image1">Image 1</div>
+            <div class="image4">Image 4</div>
+            <div class="image2">Image 2</div>
+            <div class="image3">Image 3</div>
+        </div>
+    </body>
+</html>
+
+
+
+

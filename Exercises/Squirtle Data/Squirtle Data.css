@@ -1,0 +1,30 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("SquirtleImages/ocean_bg.jpg");
+}
+th {
+    background-color:royalblue;
+    color:white;
+}
+td {
+    background-color:whitesmoke;
+    color:blue;
+}
+table {
+    border-style:dashed;
+    border-color:darkblue;
+}
+.stats {
+    color:rgb(32, 32, 235);
+}
+.breeding {
+    color:rgb(16, 16, 223);
+}
+.evolution {
+    color:mediumblue;
+}
+h2 {
+    border: solid;
+    border-color:rgb(52, 130, 202);
+    padding-left: 3px;
+}

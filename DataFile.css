@@ -1,0 +1,68 @@
+table {
+    border-collapse:collapse;
+    background-color: rgb(255, 250, 250);
+    box-shadow: 5px 5px 7px cadetblue;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./img/1026.gif);
+}
+header {
+    color: rgb(255, 250, 250);
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid rgb(255, 250, 250);
+    background-color: #16233B;
+}
+th {
+    background-color:honeydew;
+}
+h1 {
+    text-align:center;
+    background-color:#3F80F1;
+    color:rgb(240, 248, 255);
+    font-size: 25px;
+}
+li {
+    background-color:rgb(54, 54, 236);
+    color:rgb(255, 250, 250);
+    text-align:center;
+} 
+#navbar {
+    position: sticky;
+    top: 0px;
+}
+#navbar tr {
+    color: rgb(255, 250, 250);
+    
+}
+footer {
+    color: rgb(246, 240, 255);
+    font-size: 13px;
+    text-align: left;
+    border: 2px solid aliceblue;
+    background-color:#16233B;
+    padding-left: 4px;
+}
+.profile {
+    text-align: center;
+}
+.even-row {
+    background-color:rgb(0, 102, 255);
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    color:darkblue;
+    position: absolute;
+    background-color:aliceblue;
+    box-shadow: 5px 5px 7px cadetblue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+    background-color:lightgreen;
+}

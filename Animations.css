@@ -1,0 +1,40 @@
+.fade-in {
+    animation-name:fade-in-animation;
+    animation-duration: 6s;
+}
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+        transform:rotate(-80deg);
+    }
+    to {
+        opacity: 1;
+        transform:rotate(0deg);
+    }
+}
+.chromaaaaaaa {
+    animation-name: color-change-animation;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes color-change-animation {
+    0% {
+        color:snow;
+    }
+    20% {
+        color:azure;
+    }
+    40% {
+        color:rgb(184, 255, 255);
+    }
+    60% {
+        color:rgb(148, 255, 255);
+    }
+    80% {
+        color:rgb(88, 255, 255);
+    }
+    100% {
+        color:aqua;
+    }
+}
